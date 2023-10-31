@@ -1,0 +1,41 @@
+
+#services h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+#services .btn{
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+#services h5 {
+    font-weight: 600;
+}
+#services img{
+    width: 60%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.service_small_text{
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #services h2 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    #services img{
+        padding: 50px;
+        padding-bottom: 0;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #services h2 {
+        font-size: 50px;
+    }
+    #services img{
+        padding: 20px;
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,50 @@
+#function{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/public/motive.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#function h4{
+    color: var(--white-color);
+}
+#function h2{
+    color: var(--white-color);
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+#function p{
+    color: var(--white-color);
+}
+#function .leftside_pere{
+    font-size: 22px;
+    padding-top: 30px;
+}
+#function img{
+    width: 100%;
+}
+#function hr{
+    background-color: var(--white-color);
+    margin-top: 30px;
+}
+
+#function .btn{
+    background-color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #function h2 {
+        font-size: 40px;
+    }
+    #function .btn{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #function h2 {
+        font-size: 50px;
+    }
+}

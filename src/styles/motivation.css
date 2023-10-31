@@ -1,0 +1,27 @@
+#motivation{
+    margin-bottom: 50px;
+}
+#motivation img{
+    width: 100%;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+#motivation h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #motivation img{
+        margin-top: 50px;
+    }
+    #motivation h2{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #motivation h2 {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,28 @@
+#project h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+#project .btn{
+    background-color: var(--second-color);
+    outline: none;
+    border: none;
+    color: var(--white-color);
+}
+
+#project img{
+    width: 100%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #project img {
+        margin-top: 50px;
+    }
+    #project h2{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #project h2 {
+        font-size: 50px;
+    }
+}

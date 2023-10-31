@@ -1,0 +1,44 @@
+#hero h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+#hero h5{
+    margin-top: 20px;
+}
+#hero .btn {
+    background-color: var(--second-color);
+    outline: none;
+    border: none;
+    color: var(--white-color);
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #hero h1{
+        font-size: 40px;
+    }
+    #hero img{
+        width: 100%;
+    }
+    .swiper-button-next{
+        display: none;
+    }
+    .swiper-button-prev{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #hero h1{
+        font-size: 50px;
+    }
+    #hero img{
+        width: 100%;
+    }
+    .swiper-button-next{
+        display: none;
+    }
+    .swiper-button-prev{
+        display: none;
+    }
+}

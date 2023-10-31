@@ -1,0 +1,30 @@
+#about-us img{
+    width: 100%;
+}
+#about-us h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+#about-us .btn{
+    background-color: var(--second-color);
+    outline: none;
+    border: none;
+    color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #about-us h2{
+        font-size: 40px;
+    }
+    #about-us .about_small_title{
+        margin-top: 50px;
+    }
+    #about-us .about_second_section{
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #about-us h2 {
+        font-size: 50px;
+    }
+}

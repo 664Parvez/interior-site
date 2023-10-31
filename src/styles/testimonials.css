@@ -1,0 +1,47 @@
+#testimonials h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#testimonials h3{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+#testimonials h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.testImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px dotted var(--second-color);
+}
+
+.testCard{
+    background-color: var(--white-color);
+    box-shadow: 3px 3px 10px #b1b1b1;
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+
+.slick-slide{
+    margin: 20px 10px;
+}
+
+.swiper-3d{
+    padding: 40px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #testimonials h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #testimonials h2{
+        font-size: 50px;
+    }
+}

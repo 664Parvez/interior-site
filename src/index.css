@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-color: #ffffff;
+    --first-color: #011627;
+    --second-color: #578BB9;
+    --bg-color: #F9F9FF;
+    --title-font-color: #192335;
+    --normal-font-color: #333333;
+    --first-font: 'Lato', sans-serif;
+    --second-font: 'Ubuntu', sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--second-font);
+    color: var(--title-font-color);
+}
+
+span, p{
+    font-family: var(--first-font);
+}
+
+a{
+    text-decoration: none;
+}
+
+.gap{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}

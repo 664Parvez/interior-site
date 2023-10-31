@@ -1,0 +1,13 @@
+#contact-us h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#contact-us .btn{
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .get_in_touch{
+        margin-top: 50px;
+    }
+}

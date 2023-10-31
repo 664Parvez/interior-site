@@ -1,0 +1,39 @@
+#blog{
+    background-image: url("/public/blog-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+#blog h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.card ul li{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.card ul li:first-child{
+    margin-left: 0px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #blog h2{
+        font-size: 40px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .card{
+        margin-top: 20px;
+    }
+    #blog h2{
+        font-size: 50px;
+    }
+}
